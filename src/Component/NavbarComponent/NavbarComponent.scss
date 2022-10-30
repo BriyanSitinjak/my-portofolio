@@ -8,7 +8,36 @@
             display: flex;
             flex: 1;
             align-items: center;
-            gap: 3rem;
+            gap: 3em;
+        }
+
+        &-name {
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+
+        &-right {
+            display: flex;
+            flex: 1;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+        }
+
+        &-list {
+            flex: 10;
+
+            ul {
+                display: flex;
+                gap: 2em;
+                margin-right: 4em;
+                list-style: none;
+
+                li:hover {
+                    cursor: pointer;
+                    color: var(--orange);
+                }
+            }
         }
     }
 }

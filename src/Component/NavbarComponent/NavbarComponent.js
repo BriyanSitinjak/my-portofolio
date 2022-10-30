@@ -18,7 +18,7 @@ const NavbarComponent = () => {
               <li>Testimonial</li>
             </ul>
           </div>
-          <button className="button">
+          <button className="button nav-btn">
             Contat Us
           </button>
         </div>
