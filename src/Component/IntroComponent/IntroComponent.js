@@ -1,6 +1,10 @@
 import React from "react";
 import "./IntroComponent.scss";
 
+import GithubIcon from "../../img/github.png";
+import LinkedinIcon from "../../img/linkedin.png";
+import InstagramIcon from "../../img/instagram.png";
+
 const IntroComponent = () => {
   return (
     <div className="introComp">
@@ -13,6 +17,11 @@ const IntroComponent = () => {
             <button className="button intro-btn">
                 Hire Me
             </button>
+            <div className="intro-icons">
+                <img src={GithubIcon} alt=""></img>
+                <img src={LinkedinIcon} alt=""></img>
+                <img src={InstagramIcon} alt=""></img>
+            </div>
         </div>
         <div className="intro-right">
             Right side

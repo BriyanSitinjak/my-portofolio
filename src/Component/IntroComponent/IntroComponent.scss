@@ -9,9 +9,11 @@
             position: relative;
             flex: 1;
             flex-direction: column;
+            gap: 2em;
         }
 
         &-name {
+            display: flex;
             flex-direction: column;
             & span {
                 font-weight: bold;
@@ -24,6 +26,28 @@
 
             & :nth-child(2) {
                 color: var(--orange);
+            }
+
+            & :nth-child(3) {
+                font-weight: 100;
+                font-size: 14px;
+                color: var(--gray);
+                margin-top: 10px;
+            }
+        }
+
+        &-btn {
+            width: 6em;
+            height: 2.2em;
+        }
+
+        &-icons {
+            margin-top: 3em;
+            display: flex;
+            gap: 0;
+
+            > * {
+                transform: scale(0.5);
             }
         }
 
