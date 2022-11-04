@@ -10,7 +10,7 @@ const IntroComponent = () => {
     <div className="introComp">
         <div className="intro-left">
             <div className="intro-name">
-                <span>Hy! I Am</span>
+                <span>Hii! I Am</span>
                 <span>Briyan Sitinjak</span>
                 <span>Frontend Developer with high level of interest web designing and development</span>
             </div>
