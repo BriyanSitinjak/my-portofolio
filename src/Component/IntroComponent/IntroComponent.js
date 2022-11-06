@@ -4,13 +4,19 @@ import "./IntroComponent.scss";
 import GithubIcon from "../../img/github.png";
 import LinkedinIcon from "../../img/linkedin.png";
 import InstagramIcon from "../../img/instagram.png";
+import Vector1 from "../../img/Vector1.png";
+import Vector2 from "../../img/Vector2.png";
+import Boy from "../../img/boy.png";
+import Thumbup from "../../img/thumbup.png";
+import Crown from "../../img/crown.png";
+import GlassEmoji from "../../img/glassesimoji.png";
 
 const IntroComponent = () => {
   return (
     <div className="introComp">
         <div className="intro-left">
             <div className="intro-name">
-                <span>Hii! I Am</span>
+                <span>Hi! I Am</span>
                 <span>Briyan Sitinjak</span>
                 <span>Frontend Developer with high level of interest web designing and development</span>
             </div>
