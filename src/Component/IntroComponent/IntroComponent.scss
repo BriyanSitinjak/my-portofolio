@@ -53,6 +53,28 @@
 
         &-right {
             flex: 1;
+            position: relative;
+
+            & * {
+                position: absolute;
+                z-index: 1;
+            }
+
+            &:nth-child(1) {
+                transform: scale(0.69);
+                left: -15%;
+                top: -9%;
+            }
+
+            &:nth-child(2) {
+                top: -4.6em;
+                transform: scale(0.67);
+                left: -3em;
+            }
+            &:nth-child(3) {
+                transform: scale(1.4);
+                left: 28%;
+            }
         }
     }
 }

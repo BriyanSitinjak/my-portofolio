@@ -1,5 +1,6 @@
 import React from "react";
 import "./IntroComponent.scss";
+import FloatingDiv from "../FloatingDiv/FloatingDiv";
 
 import GithubIcon from "../../img/github.png";
 import LinkedinIcon from "../../img/linkedin.png";
@@ -11,12 +12,13 @@ import Thumbup from "../../img/thumbup.png";
 import Crown from "../../img/crown.png";
 import GlassEmoji from "../../img/glassesimoji.png";
 
+
 const IntroComponent = () => {
   return (
     <div className="introComp">
         <div className="intro-left">
             <div className="intro-name">
-                <span>Hi! I Am</span>
+                <span>Hi! I Am   </span>
                 <span>Briyan Sitinjak</span>
                 <span>Frontend Developer with high level of interest web designing and development</span>
             </div>
@@ -30,7 +32,12 @@ const IntroComponent = () => {
             </div>
         </div>
         <div className="intro-right">
-            Right side
+            <img src={Vector1}/>
+            <img src={Vector2}/>
+            <img src={Boy}/>
+            <div>
+                <FloatingDiv image={Crown} />
+            </div>
         </div>
     </div>
   )
